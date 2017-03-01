@@ -20,6 +20,6 @@ class Index extends CI_Controller {
 	 */
 	public function home()
 	{
-		$this->load->view('index.php');
+        $this->load->view('index.html');
 	}
 }
